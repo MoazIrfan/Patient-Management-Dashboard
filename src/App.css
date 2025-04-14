@@ -1,0 +1,136 @@
+
+html, body, #root {
+  font-family: "Roboto", sans-serif;
+}
+#root {
+    margin: 0 auto;
+    width: 100%;
+  }
+.main-app {
+  height: 100vh;
+}
+.main-content {
+  padding: 2rem;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  color: #213547;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-content input {
+  margin-left: 0.5rem;
+  padding: 0.25rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+}
+
+.clickable-row {
+  cursor: pointer;
+}
+
+.breadcrumb-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  color: #888;
+}
+
+.user-name-detail {
+  padding: 2rem 0 1rem 0;
+}
+
+.user-icon {
+  margin-left: 32px;
+  margin-right: 4px;
+  font-size: 18px !important; 
+}
+
+.dr-name {
+  padding-right:32px;
+}
+
+.striped-table tbody tr:nth-child(odd) {
+  background-color: #e3e3e3;
+}
+
+.patient-search {
+  padding-bottom: 2rem !important;
+}
+
+.nav-item {
+  display: flex;
+  padding-left: 3rem;
+}
+
+.nav-links {
+  color: #ccc !important;
+  width: auto;
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  color: #e2e2e2 !important; 
+}
+
+.no-focus:focus {
+  outline: none;
+}
+
+.no-hover:focus,
+.no-hover:hover,
+.no-hover:active {
+  box-shadow: none;
+  background-color: transparent !important;
+  outline: none;
+}
+
+.sign-out-btn {
+  color: #fff !important;
+  font-size: 12px !important;
+  border-radius: 24px !important;
+  padding: 8px 16px !important;
+  border: 10px solid transparent !important;
+  border-image-slice: 1 !important;
+  border-width: 1px !important;
+  border-image-source: linear-gradient(to left, #5d5df7, #00bcd4) !important;
+}
+
+@media (max-width: 900px) {
+  .nav-item {
+    display: none;
+  }
+  .sign-out-btn {
+    font-size: 12px !important;
+    padding: 4px 8px !important;
+    min-width: 100px !important;
+  }
+  .dr-name {
+    font-size: 12px !important;
+  }
+}

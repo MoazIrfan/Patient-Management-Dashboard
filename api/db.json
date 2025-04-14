@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "doctor1",
+      "password": "@HealiDoctor1!",
+      "name": "Dr. Sarah Wilson"
+    },
+    {
+      "id": "2",
+      "username": "doctor2",
+      "password": "@HealiDoctor1!",
+      "name": "Dr. Michael Chen"
+    }
+  ],
+  "patients": [
+    {
+      "id": "1",
+      "doctorId": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "dateOfBirth": "1985-03-15",
+      "gender": "male",
+      "contactNumber": "555-0123",
+      "email": "john.doe@email.com",
+      "conditions": ["Type 2 Diabetes", "Hypertension"],
+      "medications": [
+        {
+          "name": "Metformin",
+          "dosage": "500mg",
+          "frequency": "Twice daily"
+        },
+        {
+          "name": "Lisinopril",
+          "dosage": "10mg",
+          "frequency": "Once daily"
+        }
+      ],
+      "lastVisit": "2024-02-15"
+    },
+    {
+      "id": "2",
+      "doctorId": "1",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "dateOfBirth": "1990-08-22",
+      "gender": "female",
+      "contactNumber": "555-0456",
+      "email": "jane.smith@email.com",
+      "conditions": ["Asthma", "Anxiety"],
+      "medications": [
+        {
+          "name": "Albuterol",
+          "dosage": "90mcg",
+          "frequency": "As needed"
+        },
+        {
+          "name": "Sertraline",
+          "dosage": "50mg",
+          "frequency": "Once daily"
+        }
+      ],
+      "lastVisit": "2024-03-01"
+    },
+    {
+      "id": "3",
+      "doctorId": "1",
+      "firstName": "Robert",
+      "lastName": "Johnson",
+      "dateOfBirth": "1978-11-30",
+      "gender": "male",
+      "contactNumber": "555-0789",
+      "email": "robert.j@email.com",
+      "conditions": ["High Cholesterol", "Arthritis"],
+      "medications": [
+        {
+          "name": "Atorvastatin",
+          "dosage": "20mg",
+          "frequency": "Once daily"
+        }
+      ],
+      "lastVisit": "2024-02-28"
+    },
+    {
+      "id": "4",
+      "doctorId": "2",
+      "firstName": "Maria",
+      "lastName": "Garcia",
+      "dateOfBirth": "1992-04-15",
+      "gender": "female",
+      "contactNumber": "555-0321",
+      "email": "maria.g@email.com",
+      "conditions": ["Migraine", "Depression"],
+      "medications": [
+        {
+          "name": "Sumatriptan",
+          "dosage": "50mg",
+          "frequency": "As needed"
+        }
+      ],
+      "lastVisit": "2024-03-05"
+    },
+    {
+      "id": "5",
+      "doctorId": "2",
+      "firstName": "William",
+      "lastName": "Brown",
+      "dateOfBirth": "1965-07-22",
+      "gender": "male",
+      "contactNumber": "555-0654",
+      "email": "william.b@email.com",
+      "conditions": ["COPD", "Hypertension"],
+      "medications": [
+        {
+          "name": "Tiotropium",
+          "dosage": "18mcg",
+          "frequency": "Once daily"
+        }
+      ],
+      "lastVisit": "2024-02-20"
+    },
+    {
+      "id": "6",
+      "doctorId": "2",
+      "firstName": "Sarah",
+      "lastName": "Lee",
+      "dateOfBirth": "1988-09-10",
+      "gender": "female",
+      "contactNumber": "555-0987",
+      "email": "sarah.l@email.com",
+      "conditions": ["Type 1 Diabetes", "Celiac Disease"],
+      "medications": [
+        {
+          "name": "Insulin",
+          "dosage": "Variable",
+          "frequency": "As needed"
+        }
+      ],
+      "lastVisit": "2024-03-10"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "patientId": "1",
+      "doctorId": "1",
+      "date": "2024-03-20",
+      "time": "10:00",
+      "type": "Follow-up",
+      "notes": "Regular diabetes check-up"
+    },
+    {
+      "id": "2",
+      "patientId": "1",
+      "doctorId": "1",
+      "date": "2024-04-20",
+      "time": "11:00",
+      "type": "Regular",
+      "notes": "Blood pressure monitoring"
+    },
+    {
+      "id": "3",
+      "patientId": "2",
+      "doctorId": "1",
+      "date": "2024-03-25",
+      "time": "14:30",
+      "type": "Regular",
+      "notes": "Medication review"
+    },
+    {
+      "id": "4",
+      "patientId": "2",
+      "doctorId": "1",
+      "date": "2024-04-25",
+      "time": "15:30",
+      "type": "Follow-up",
+      "notes": "Anxiety management check"
+    },
+    {
+      "id": "5",
+      "patientId": "3",
+      "doctorId": "1",
+      "date": "2024-03-28",
+      "time": "09:00",
+      "type": "Regular",
+      "notes": "Cholesterol check"
+    },
+    {
+      "id": "6",
+      "patientId": "3",
+      "doctorId": "1",
+      "date": "2024-04-28",
+      "time": "10:00",
+      "type": "Follow-up",
+      "notes": "Arthritis assessment"
+    },
+    {
+      "id": "7",
+      "patientId": "4",
+      "doctorId": "2",
+      "date": "2024-03-22",
+      "time": "13:00",
+      "type": "Regular",
+      "notes": "Migraine follow-up"
+    },
+    {
+      "id": "8",
+      "patientId": "4",
+      "doctorId": "2",
+      "date": "2024-04-22",
+      "time": "14:00",
+      "type": "Follow-up",
+      "notes": "Depression check"
+    },
+    {
+      "id": "9",
+      "patientId": "5",
+      "doctorId": "2",
+      "date": "2024-03-24",
+      "time": "11:30",
+      "type": "Regular",
+      "notes": "COPD assessment"
+    },
+    {
+      "id": "10",
+      "patientId": "5",
+      "doctorId": "2",
+      "date": "2024-04-24",
+      "time": "11:30",
+      "type": "Follow-up",
+      "notes": "Blood pressure check"
+    },
+    {
+      "id": "11",
+      "patientId": "6",
+      "doctorId": "2",
+      "date": "2024-03-26",
+      "time": "16:00",
+      "type": "Regular",
+      "notes": "Diabetes management"
+    },
+    {
+      "id": "12",
+      "patientId": "6",
+      "doctorId": "2",
+      "date": "2024-04-26",
+      "time": "16:00",
+      "type": "Follow-up",
+      "notes": "Celiac disease check"
+    }
+  ]
+}
